@@ -29,8 +29,8 @@ That's it! You should now have Xilinx Vivado 2020.1 and Conda installed, which a
 
 For more detailed instructions on each approach, please refer to the following folders:
 
-- [DPU Approach Instructions]()
-- [HLS4ML Approach Instructions]()
+- [DPU Approach Instructions](https://github.com/dvorozhbit/alveo_purdue/tree/main/dpu-approach)
+- [HLS4ML Approach Instructions](https://github.com/dvorozhbit/alveo_purdue/tree/main/hls4ml-approach)
 
 Click on the links above to access the respective folders and follow the detailed instructions provided.
 
