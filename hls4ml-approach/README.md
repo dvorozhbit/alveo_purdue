@@ -18,3 +18,17 @@ pip install jupyter onnx tensorflow==2.4.0 tensorflow_datasets qkeras==0.9.0 sci
 ```
 Install PyTorch based on the installed CUDA version
 Follow the [instructions](https://pytorch.org/get-started/locally/) based on your CUDA version
+
+
+## XRT Installation (For Alveo U250)
+
+To install XRT and the associated deployment and development platforms for Alveo U250, follow these steps:
+
+1. Download XRT, Deployment, and Development platforms version 2019.1 from [here](https://www.xilinx.com/products/boards-and-kits/alveo/package-files-archive/u250-2019-1.html).
+
+2. Install XRT and the platforms according to the instructions provided in the Xilinx user guide [UG1301-2019-02-13](https://docs.xilinx.com/v/u/1.3-English/ug1301-getting-started-guide-alveo-accelerator-cards).
+
+   **Warning:** If you have already installed a different version of XRT and have an Alveo card flashed with it, you need to remove the current XRT installation, revert the Alveo card to the golden image, and then install XRT version 2019.1
+   
+   For managing the version of XRT, refer to the instructions provided [here](https://xilinx.github.io/Alveo-Cards/master/debugging/build/html/docs/modifying-xrt-platform.html).
+
