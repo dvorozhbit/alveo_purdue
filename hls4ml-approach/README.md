@@ -17,7 +17,6 @@ Install additional packages using pip
 pip install jupyter onnx tensorflow==2.4.0 tensorflow_datasets qkeras==0.9.0 scikit-learn conifer==0.2b0
 ```
 Install PyTorch based on the installed CUDA version
-
 Follow the [instructions](https://pytorch.org/get-started/locally/)
 
 
