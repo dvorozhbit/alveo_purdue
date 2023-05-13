@@ -32,3 +32,11 @@ To install XRT and the associated deployment and development platforms for Alveo
    
    For managing the version of XRT, refer to the instructions provided [here](https://xilinx.github.io/Alveo-Cards/master/debugging/build/html/docs/modifying-xrt-platform.html).
 
+## Running HLS4ML Tutorials
+
+To run the HLS4ML tutorial notebooks - [HLS4ML Tutorials](https://github.com/fastmachinelearning/hls4ml-tutorial)
+
+1. Set up the Vivado environment by sourcing the `settings64.sh` file. Replace `<install_path>` with the actual installation path of Vivado and `<version>` with the specific version you are using.
+
+   ```shell
+   source <install_path>/Vivado/<version>/settings64.sh
